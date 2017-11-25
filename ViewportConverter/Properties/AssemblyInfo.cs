@@ -10,10 +10,10 @@ using System.Windows;
 [assembly: AssemblyTitle("ViewportConverter")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("@maximgorbatyuk")]
 [assembly: AssemblyProduct("ViewportConverter")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("@maximgorbatyuk")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
