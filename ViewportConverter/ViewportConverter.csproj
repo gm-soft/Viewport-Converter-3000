@@ -64,8 +64,6 @@
     </Compile>
     <Compile Include="Logic\Converter.cs" />
     <Compile Include="Logic\ParserExtensions.cs" />
-    <Compile Include="Logic\ViewportData.cs" />
-    <Compile Include="Logic\WidthHeightData.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
