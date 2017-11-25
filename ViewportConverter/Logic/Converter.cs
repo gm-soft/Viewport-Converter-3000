@@ -18,7 +18,7 @@ namespace ViewportConverter.Logic
 
         public double ParseAsDouble(string @string)
             => @string.ParseAsDouble()
-               ?? throw new ArgumentException(message: @"Возникла ошибка при обработке числа в тип double", paramName: nameof(@string));
+               ?? throw new ArgumentException(message: $"Возникла ошибка при обработке \"{@string}\" в тип double", paramName: nameof(@string));
 
         public string GetAsViewportWidth(string @string)
         {

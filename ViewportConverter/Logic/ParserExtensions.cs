@@ -14,7 +14,7 @@ namespace ViewportConverter.Logic
                 .TryParse();
         }
 
-        private static readonly Regex _pxRegex = new Regex(@"(px|\s)?");
+        private static readonly Regex _pxRegex = new Regex(@"([p]|[px]|\s)?");
         private static string PurgeStringValue(this string @string)
         {
             @string = @string
