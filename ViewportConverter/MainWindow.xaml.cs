@@ -29,6 +29,8 @@ namespace ViewportConverter
         {
             InitializeComponent();
 
+            SetupDesktopStandardValues();
+
             _messageClearTimer = new DispatcherTimer
             {
                 Interval = TimeSpan.FromSeconds(3)
@@ -112,6 +114,20 @@ namespace ViewportConverter
             Textblock_Messages.Text = message;
             // старт таймера очищения
             _messageClearTimer.IsEnabled = true;
+        }
+
+        private void SetupDesktopStandardValues()
+        {
+            // TODO: move to configuration
+            TextBox_StandardWidthPx.Text = "1920";
+            TextBox_StandardHeightPx.Text = "1080";
+        }
+
+        private void SetupIPhoneStandardValues()
+        {
+            // TODO: move to configuration
+            TextBox_StandardWidthPx.Text = "375";
+            TextBox_StandardHeightPx.Text = "667";
         }
     }
 }
